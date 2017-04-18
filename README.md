@@ -5,6 +5,8 @@
 4. **[Credits](#4-thanks-to-)**
 5. **[Contact](#4-contact-)**
 6. **[Known Bugs / To Do](#4-known-bugs-to-do-)**
+
+[**Get the last release**](https://github.com/ZeraTron/3DSpoof/releases)
 ***
 ### __1. About 3DSpoof :__
 3DSpoof is a 3DS homebrew what allows you to customize your SysNAND and up to 4 EmuNAND.
@@ -46,8 +48,8 @@ Here is the full list of them:
 | _SYS_**DDOWN**               | **Down** **D**Pad          |   | _PCT_**PHONE**               | **Phone** Icon              |
 | _SYS_**DLEFT**               | **Left** **D**Pad          |   | _PCT_**CLOCK**               | **Clock** Icon              |
 | _SYS_**DRIGHT**              | **Right** **D**Pad         |   | _PCT_**SPADE**               | **Spade** Icon              |
-| _SYS_**DUPDOWN**             | **Up Down** **D**Pad       |   | _PCT_**DIAMOND**             | **Diamond** Icon           |
-| _SYS_**DLEFTRIGHT**          | **Left Right** **D**Pad    |   | _PCT_**HEART**               | **Heart** Icon             |
+| _SYS_**DUPDOWN**             | **Up Down** **D**Pad       |   | _PCT_**DIAMOND**             | **Diamond** Icon            |
+| _SYS_**DLEFTRIGHT**          | **Left Right** **D**Pad    |   | _PCT_**HEART**               | **Heart** Icon              |
 | _SYS_**PWR**                 | **Power** Button           |   | _PCT_**CLUBS**               | **Clubs** Icon              |
 | _SYS_**VID**                 | **Video** Button           |   | _PCT_**RARROW**              | **Right Arrow** Icon        |
 | _SYS_**BACKARROW**           | **Back** Button            |   | _PCT_**LARROW**              | **Left Arrow** Icon         |
