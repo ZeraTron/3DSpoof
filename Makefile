@@ -35,7 +35,7 @@ INCLUDES	:=	include
 #ROMFS		:=	romfs
 
 APP_TITLE          :=  3DSpoof
-APP_DESCRIPTION    :=  Let you spoof Sysnand and up to 4 Emunand versions !    ALPHA BUILD v0.0.1-2
+APP_DESCRIPTION    :=  Let you spoof Sysnand and up to 4 Emunand versions !
 APP_AUTHOR         :=  ZeraTron
 ICON               :=  source/icon.png
 #---------------------------------------------------------------------------------
