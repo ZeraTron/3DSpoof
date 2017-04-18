@@ -25,7 +25,7 @@
 //defines for the version
 #define V1 1
 #define V2 0
-#define V3 0
+#define V3 1
 
 // Defines used for the menu
 #define N 6                // menu size
@@ -52,7 +52,7 @@ void setString(char* path) {
 	swkbdInit(&swkbd, SWKBD_TYPE_NORMAL, 1, 19);
 	swkbdSetValidation(&swkbd, SWKBD_NOTEMPTY_NOTBLANK, SWKBD_FILTER_DIGITS, 19);
 	swkbdSetFeatures(&swkbd, SWKBD_MULTILINE);
-	swkbdSetHintText(&swkbd, "RESET: %d.%d.%d-%d%ls\nSHRUG: ¯\\_(ツ)_/¯");
+	swkbdSetHintText(&swkbd, "RESET: %d.%d.%d-%d%ls\n3DS: 3DSpoof ");
 	//
 	swkbdSetFeatures(&swkbd, SWKBD_PREDICTIVE_INPUT);
 	SwkbdDictWord words[73];
@@ -61,27 +61,27 @@ void setString(char* path) {
 			swkbdSetDictWord(&words[1], "ZT", "ZeraTron");
 			swkbdSetDictWord(&words[2], "SHRUG", "¯\\_(ツ)_/¯");
 			swkbdSetDictWord(&words[3], "DEX", "4.46 REBUG");
+			swkbdSetDictWord(&words[4], "3DS", "3DSpoof ");
 			//SYSTEM
-			swkbdSetDictWord(&words[4], "SYSABTN", "");
-			swkbdSetDictWord(&words[5], "SYSBBTN", "");
-			swkbdSetDictWord(&words[6], "SYSXBTN", "");
-			swkbdSetDictWord(&words[7], "SYSYBTN", "");
-			swkbdSetDictWord(&words[8], "SYSLB", "");
-			swkbdSetDictWord(&words[9], "SYSRB", "");
-			swkbdSetDictWord(&words[10], "SYSCIRCLEPAD", "");
-			swkbdSetDictWord(&words[11], "SYSDPAD", "");
-			swkbdSetDictWord(&words[12], "SYSDUP", "");
-			swkbdSetDictWord(&words[13], "SYSDDOWN", "");
-			swkbdSetDictWord(&words[14], "SYSDLEFT", "");
-			swkbdSetDictWord(&words[15], "SYSDRIGHT", "");
-			swkbdSetDictWord(&words[16], "SYSDUPDOWN", "");
-			swkbdSetDictWord(&words[17], "SYSDLEFTRIGHT", "");
-			swkbdSetDictWord(&words[18], "SYSPWR", "");
-			swkbdSetDictWord(&words[19], "SYSVID", "");
-			swkbdSetDictWord(&words[20], "SYSBACKARROW", "");
-			swkbdSetDictWord(&words[21], "SYSCLOSE", "");
-			swkbdSetDictWord(&words[22], "SYSCLOSE2", "");
-			swkbdSetDictWord(&words[23], "SYSTSCALIBR", "");
+			swkbdSetDictWord(&words[5], "SYSABTN", "");
+			swkbdSetDictWord(&words[6], "SYSBBTN", "");
+			swkbdSetDictWord(&words[7], "SYSXBTN", "");
+			swkbdSetDictWord(&words[8], "SYSYBTN", "");
+			swkbdSetDictWord(&words[9], "SYSLB", "");
+			swkbdSetDictWord(&words[10], "SYSRB", "");
+			swkbdSetDictWord(&words[11], "SYSCIRCLEPAD", "");
+			swkbdSetDictWord(&words[12], "SYSDPAD", "");
+			swkbdSetDictWord(&words[13], "SYSDUP", "");
+			swkbdSetDictWord(&words[14], "SYSDDOWN", "");
+			swkbdSetDictWord(&words[15], "SYSDLEFT", "");
+			swkbdSetDictWord(&words[16], "SYSDRIGHT", "");
+			swkbdSetDictWord(&words[17], "SYSDUPDOWN", "");
+			swkbdSetDictWord(&words[18], "SYSDLEFTRIGHT", "");
+			swkbdSetDictWord(&words[19], "SYSPWR", "");
+			swkbdSetDictWord(&words[20], "SYSVID", "");
+			swkbdSetDictWord(&words[21], "SYSBACKARROW", "");
+			swkbdSetDictWord(&words[22], "SYSCLOSE", "");
+			swkbdSetDictWord(&words[23], "SYSCLOSE2", "");
 			swkbdSetDictWord(&words[24], "SYSCAM", "");
 			swkbdSetDictWord(&words[25], "SYSHOME", "");
 			swkbdSetDictWord(&words[26], "SYSPDMETER", "");
