@@ -8,7 +8,7 @@
 
 [**Get the last release**](https://github.com/ZeraTron/3DSpoof/releases)
 ***
-## Information:
+## Information :
 A new update is scheduled for this autumn, it will provide the following features:
 * A GUI version (the console one will be still available).
 * **[Known Bugs / To Do](#6-known-bugs--to-do-)** stuffs will be fixed/added.
@@ -30,6 +30,10 @@ I read his code and improved it, by redesigning it, making the code more easy to
 ![Settings](https://image.noelshack.com/fichiers/2017/16/1492547935-settings.png)
 ***
 ### __3. Dictionnary :__
+**Note:** You can alternatively use this awesome Keyboard made by ***Taïfel (Firesanic)*** which provide all the symbols by default.
+* [*PAL download link*](https://drive.google.com/file/d/0B6xyy2dCccsfSk5QZlp2dU5JdEU/view)
+* [*US download link*](https://mega.nz/#!gkZmQSbT!NmG9CInvs4vCbzeO-qSGU8lM4T2VTEwIlVBIJQBAp4g)
+
 3DSpoof has its own custom dictionary to add special Nintendo caracters in your version, like console buttons.
 Here is the full list of them:
 
