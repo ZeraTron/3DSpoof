@@ -3,10 +3,16 @@
 2. **[Screenshots](#2-screenshots-)**
 3. **[Dictionnary](#3-dictionnary-)**
 4. **[Credits](#4-thanks-to-)**
-5. **[Contact](#4-contact-)**
-6. **[Known Bugs / To Do](#4-known-bugs-to-do-)**
+5. **[Contact](#5-contact-)**
+6. **[Known Bugs / To Do](#6-known-bugs--to-do-)**
 
 [**Get the last release**](https://github.com/ZeraTron/3DSpoof/releases)
+***
+## Information:
+A new update is scheduled for this autumn, it will provide the following features:
+* A GUI version (the console one will be still available).
+* **[Known Bugs / To Do](#6-known-bugs--to-do-)** stuffs will be fixed/added.
+* QR code for FBI.
 ***
 ### __1. About 3DSpoof :__
 3DSpoof is a 3DS homebrew what allows you to customize your SysNAND and up to 4 EmuNAND.
@@ -18,6 +24,8 @@ I read his code and improved it, by redesigning it, making the code more easy to
 ![HBL](https://image.noelshack.com/fichiers/2017/16/1492547939-hbl.png)
 
 ![3DSpoof](https://image.noelshack.com/fichiers/2017/16/1492547939-3dspoof.png)
+
+![Keyboard](https://image.noelshack.com/fichiers/2017/26/1/1498499178-keyboard.png)
 
 ![Settings](https://image.noelshack.com/fichiers/2017/16/1492547935-settings.png)
 ***
