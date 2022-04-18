@@ -25,7 +25,7 @@
 //defines for the version
 #define V1 1
 #define V2 0
-#define V3 1
+#define V3 2
 
 // Defines used for the menu
 #define N 6                // menu size
@@ -49,7 +49,8 @@ void setString(char* path) {
 	static char buf[20];
 
 	SwkbdButton button = SWKBD_BUTTON_NONE;
-	swkbdInit(&swkbd, SWKBD_TYPE_NORMAL, 1, 19);
+	swkbdInit(&swkbd, SWKBD_TYPE_NORMAL, 2, 19);
+	swkbdSetButton(&swkbd, SWKBD_BUTTON_LEFT, "Cancel", false);
 	swkbdSetValidation(&swkbd, SWKBD_NOTEMPTY_NOTBLANK, SWKBD_FILTER_DIGITS, 19);
 	swkbdSetFeatures(&swkbd, SWKBD_MULTILINE);
 	swkbdSetHintText(&swkbd, "RESET: %d.%d.%d-%d%ls\n3DS: 3DSpoof ");
